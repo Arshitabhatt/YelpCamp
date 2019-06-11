@@ -1,0 +1,30 @@
+body{
+    font-family: 'Saira Semi Condensed', sans-serif;
+    background: #5C258D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #4389A2, #5C258D) ; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    overflow-x: hidden;   
+  /* for responsive back ground image use overflow hidden solves the problem of off screen image background */
+} 
+.lead{
+    color: whitesmoke;
+}
+.thumbnail img{
+    width: 100%;
+    margin: 0;
+}
+.thumbnail{
+    padding: 0;
+}
+
+.thumbnail .caption-full{
+    padding: 9px;
+}
+
+.deleteForm{
+    display: inline;
+}
+
+h1 {
+    color: whitesmoke;
+}
