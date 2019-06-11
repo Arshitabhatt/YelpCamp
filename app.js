@@ -54,7 +54,9 @@ app.use(campgroundRoutes);
 app.use(commentRoutes);
 app.use(indexRoutes);
 
-app.listen(4000,'127.0.0.1', function(){
-    console.log("yeplcamp server has started!!");
-    console.log(`Server running at http://127.0.0.1:4000/`);
+// copy it all apps
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+    console.log(`Our app is running on port ${ PORT }`);
+    console.log("for local host it runs on http://127.0.0.1:3000/");
 });
